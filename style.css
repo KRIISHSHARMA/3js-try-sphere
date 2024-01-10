@@ -29,13 +29,14 @@ nav{
 }
 nav a{
   text-decoration: wavy;
+  font-size: 30px;
   color: beige;
   font-weight: bolder; 
 }
 nav ul {
   list-style: none;
   display: flex;
-  gap: 4rem;
+  gap: 8rem;
 
 }
 
@@ -45,7 +46,7 @@ nav ul {
   z-index: 2;
   position: absolute;
   font-size: 4rem ;
-  left: 55%;
+  left: 50%;
   top: 75%;
   transform: translate(-50%,-25%);
 }
